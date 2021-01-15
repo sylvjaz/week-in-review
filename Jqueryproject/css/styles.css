@@ -11,3 +11,11 @@ img {
 .clickable1:hover, .clickable2:hover, .clickable3:hover {
     text-decoration: underline;
 }
+body {
+  background-image: url("img/stardust.jpg"), url("https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") ;
+  background-color: #cccccc;
+  color: white
+}
+h1 {
+  color:white
+}
