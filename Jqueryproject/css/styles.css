@@ -2,19 +2,13 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
+  float: left;
 }
 body {
-  background-image: url("img/stardust.jpg"), url("https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") ;
-  background-color: #cccccc;
-  color: white
+  background-color: black
+  color: yellow
 }
-h1 {
-  color:white
-}
-.surveyquestions {
-  color:yellow;
-}
-#result-python, #result-javascript {
-  dislplay: none;
+h2 {
+  color: yellow
 }
