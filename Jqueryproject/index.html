@@ -11,7 +11,7 @@
   <div id="header">
     <center>
     <h1>Determining a coding language for you!</h1>
-    <p><b>Share some information about you.</b></p>
+    <p><b>Answer some questions to determine what coding language is best for you!</b></p>
     <p>The world of coding is filled with different languages such as Ruby, C#, Go, Python, and so many more!</p>
     <img src="img/coding.jpg">
     <h1>What coding language are you?</h1>
@@ -19,7 +19,7 @@
   </div>
   <form id="survey" action=" ">
     <div class="questions">
-      <p>What year was Python Software Foundationfound?</p>
+      <p>What year was Python Software Foundation found?</p>
         <input type="radio" id="python" value="20" />1995<br/>
         <input type="radio" id="python" value="0" />1970<br/>
         <input type="radio" id="python" value="0" />1997<br/>
@@ -58,17 +58,21 @@
         <input type="radio" id="jlanguages" value="0" />Making a grilled cheese<br/>
         <input type="radio" id="jlanguages" value="20" />HTML, CSS<br/>
         <input type="radio" id="jlanguages" value="0" />Who cares<br/>
-        <input type="radio" id="jlanguages" value="0" />English<br/>
+        <input type="radio" id="jlanguages" value="0" />English</br>
     </div>
-      <input type="submit"  value="Submit">
-      <div class="coder">
-      <p>You are this type of coder: <span id="results">_</span></p>
-      <output id=yourresults></output>
+    <div class="questions">
+      <label><u>What coding language should you learn</u></label>
+      <output id="results"></output>
     </div>
-  </form> 
-  <script>
-    $('questions').on('input')
-
-  </script>
+    <button type="submit" class="btn">SUBMIT!</button>
+    <div id="result-python">
+      <h2>You should learn python language</h2>
+      <p>If you received 60 points</p>
+    </div>
+    <div id="result-javascript">
+      <h2>You should learn Javascript</h2>
+      <p>If you received 40 or less we feel you'd be a great fit for learning Javascript.</p>
+    </div>
+  </form>
 </body>
 </html>

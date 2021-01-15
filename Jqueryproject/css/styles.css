@@ -15,3 +15,6 @@ h1 {
 .surveyquestions {
   color:yellow;
 }
+#result-python, #result-javascript {
+  dislplay: none;
+}
