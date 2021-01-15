@@ -1,9 +1,13 @@
-#js-showing {
-  display:none;
-}
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.clickable1, .clickable2, .clickable3 {
+  cursor: pointer;
+  color: #0088cc; 
+}
+.clickable1:hover, .clickable2:hover, .clickable3:hover {
+    text-decoration: underline;
 }
