@@ -17,49 +17,58 @@
     <h1>What coding language are you?</h1>
     </center> 
   </div>
-  <div class="surveyquestions">
-    <form id="survey" action=" ">
-    <p>What year was Python Software Foundationfound?</p>
-      <input type="radio" name="python" value="20" />1995<br/>
-      <input type="radio" name="python" value="0" />1970<br/>
-      <input type="radio" name="python" value="0" />1997<br/>
-      <input type="radio" name="python" value="0" />2003<br/>
-      <input type="radio" name="python" value="0" />1966<br/>
+  <form id="survey" action=" ">
+    <div class="questions">
+      <p>What year was Python Software Foundationfound?</p>
+        <input type="radio" id="python" value="20" />1995<br/>
+        <input type="radio" id="python" value="0" />1970<br/>
+        <input type="radio" id="python" value="0" />1997<br/>
+        <input type="radio" id="python" value="0" />2003<br/>
+        <input type="radio" id="python" value="0" />1966<br/>
+    </div>
 
+    <div class="questions">
     <p>What year was Javascript found?</p>
-      <input type="radio" name="javascript" value="20" />1995<br/>
-      <input type="radio" name="javascript" value="0" />1970<br/>
-      <input type="radio" name="javascript" value="0" />1997<br/>
-      <input type="radio" name="javascript" value="0" />2003<br/>
-      <input type="radio" name="javascript" value="0" />1966<br/>
+      <input type="radio" name="javascript" vue="20" />1995<br/>
+      <input type="radio" id="javascript" value="0" />1970<br/>
+      <input type="radio" id="javascript" value="0" />1997<br/>
+      <input type="radio" id="javascript" value="0" />2003<br/>
+      <input type="radio" id="javascript" value="0" />1966<br/>
+    </div>
+    <div class="questions">
+      <p>Who is the founder of C# language?</p> 
+        <input type="radio" id="" value="0" />Apple<br/>
+        <input type="radio" id="c" value="20" />Microsoft<br/>
+        <input type="radio" id="c" value="0" />Intel<br/>
+        <input type="radio" id="c" value="0" />HP<br/>
+        <input type="radio" id="c" value="0" />Sony<br/>
+    </div>
+    <div class="questions">
+      <p>Which company highly loves Python and asks detailed questions about the language during interviews?</p>
+        <input type="radio" id="goldman" value="0" />US Bank<br/>
+        <input type="radio" id="goldman" value="0" />Target<br/>
+        <input type="radio" id="goldman" value="0" />Vogue<br/>
+        <input type="radio" id="goldman" value="20" />Goldman Sachs<br/>
+        <input type="radio" id="goldman" value="0" />I don't even know<br/>
+    </div>
 
-    <p>Who is the founder of C# language?</p>
-      <input type="radio" name="" value="0" />Apple<br/>
-      <input type="radio" name="c" value="20" />Microsoft<br/>
-      <input type="radio" name="c" value="0" />Intel<br/>
-      <input type="radio" name="c" value="0" />HP<br/>
-      <input type="radio" name="c" value="0" />Sony<br/>
-
-    <p>Which company highly loves Python and asks detailed questions about the language during interviews?</p>
-      <input type="radio" name="goldman" value="0" />US Bank<br/>
-      <input type="radio" name="goldman" value="0" />Target<br/>
-      <input type="radio" name="goldman" value="0" />Vogue<br/>
-      <input type="radio" name="goldman" value="20" />Goldman Sachs<br/>
-      <input type="radio" name="goldman" value="0" />I don't even know<br/>
-
-    <p>What languages should you be familiar with prior to learning Javascript?</p>
-      <input type="radio" name="jlanguages" value="0" />Python<br/>
-      <input type="radio" name="jlanguages" value="0" />Making a grilled cheese<br/>
-      <input type="radio" name="jlanguages" value="20" />HTML, CSS<br/>
-      <input type="radio" name="jlanguages" value="0" />Who cares<br/>
-      <input type="radio" name="jlanguages" value="0" />English<br/>
-
+    <div class="questions">
+      <p>What languages should you be familiar with prior to learning Javascript?</p>
+        <input type="radio" id="jlanguages" value="0" />Python<br/>
+        <input type="radio" id="jlanguages" value="0" />Making a grilled cheese<br/>
+        <input type="radio" id="jlanguages" value="20" />HTML, CSS<br/>
+        <input type="radio" id="jlanguages" value="0" />Who cares<br/>
+        <input type="radio" id="jlanguages" value="0" />English<br/>
+    </div>
       <input type="submit"  value="Submit">
-    </form>
-  </div>
-  <div class="coder">
-    <p>You are this type of coder: <span id="results">_</span></p>
-    <p id=yourresults></p>
-  </div>
+      <div class="coder">
+      <p>You are this type of coder: <span id="results">_</span></p>
+      <output id=yourresults></output>
+    </div>
+  </form> 
+  <script>
+    $('questions').on('input')
+
+  </script>
 </body>
 </html>
