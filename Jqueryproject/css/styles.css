@@ -12,3 +12,10 @@ body {
 h2 {
   color: yellow
 }
+.btn {
+  display: block;
+}
+
+#answer {
+  display: none;
+}

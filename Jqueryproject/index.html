@@ -16,12 +16,11 @@
     <p><b>To know what coding language you are, we need to know about you:<b></p>
     <ul>
       <li>
-        <form id="interests">
+        <form id="aboutyou">
         <label for="age">Age</label>
         <input id="age" type="text">
       </li>
       <li>
-        <form id="hours">
         <label for="hours">Hours on a computer</label>
         <input id="hours" type="text">
       </li>
@@ -42,7 +41,7 @@
         </select>
       </li>
       <li>
-        <label for="movies">Favorite movie:/label>
+        <label for="movies">Favorite movie</label>
         <select id="movies">
           <option value="fifthestate">The Fifth Estate</option>
           <option value="matrix">Matrix</option>
@@ -51,7 +50,11 @@
         </select>
       </li>
     </ul>
-  </form>
-
+    <button type="submit" class="btn">What coding language should YOU learn?</button>
+    </form>
+    <div id="answer">
+      <p>You will be great at $<span id="language"></span>. You should look into courses.
+    </div>
+  </div>
 </body>
 </html>
